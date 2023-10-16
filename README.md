@@ -1,5 +1,7 @@
 # HowDoIMake Recipe Generator
 
+![HowDoIMake Recipe Generator Preview](https://i.imgur.com/nTnk1wH.png)
+
 ## Description
 "HowDoIMake" is a cutting-edge recipe generator powered by OpenAI's ChatGPT-4 and DALL-E-2. It enables users to effortlessly generate recipes by simply typing in the name of a dish. Not only will users get ingredients and instructions, but they'll also be presented with a visually appealing image of the dish and a fictional story related to it – all crafted through the power of AI.
 
