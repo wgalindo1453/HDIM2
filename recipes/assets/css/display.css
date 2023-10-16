@@ -1,0 +1,66 @@
+.container {
+    margin-top: 20px;
+}
+
+.dropdown-menu {
+    z-index: 1000;
+}
+
+.navbar-toggler {
+    position: absolute; /* Absolute positioning relative to the parent (which should be relatively positioned) */
+    top: 10px; /* Adjust this value to vertically center align it to your search bar */
+    left: 0; /* Positioning it to the extreme left. Adjust this value if needed */
+    z-index: 1001; /* Ensure it appears above other elements */
+}
+
+.name-title {
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    width : 80%;
+    margin: auto; /* Center the card */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-header, .card-body {
+    padding: 15px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.img-card .img-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    max-width: 512px; /* Maximum width */
+    margin: auto; /* Center the img-container */
+}
+
+.img-card .card-img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
