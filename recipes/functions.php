@@ -559,7 +559,7 @@ function renderSimilarRecipes($similarRecipesArray) {
 
 
 function fetchRecipeFromAPI($query) {
-    $api_key = "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";
+    $api_key = "YOUR API KEY HERE";
     
     $data = [
         "model" => "gpt-4",
