@@ -17,7 +17,7 @@ Visit [HowDoIMake Recipe Generator](https://www.thecraftlink.com) to start explo
 ## How It Works
 The application is built upon two of OpenAI's powerful models:
 1. **ChatGPT-4**: It is utilized to generate the recipe details, including ingredients, instructions, and the fictional story.
-2. **DALL-E-2**: This model is responsible for generating vivid images of the dishes based on the description and story provided by ChatGPT-4.
+2. **DALL-E-3**: This model is responsible for generating vivid images of the dishes based on the description and story provided by ChatGPT-4.
 
 ## Contribution
 Contributions, feedback, and issues are always welcome. Feel free to fork this repository and submit pull requests or create issues to discuss any potential improvements.
